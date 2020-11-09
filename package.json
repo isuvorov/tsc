@@ -1,0 +1,22 @@
+{
+  "name": "tsc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --jsx react --outDir dist src/**.ts",
+    "dev": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/styled": "^10.0.27",
+    "@lskjs/dev": "^1.31.3",
+    "@lskjs/image": "^1.31.3",
+    "@types/lodash": "^4.14.165",
+    "@types/react": "^16.9.56",
+    "lodash": "^4.17.20",
+    "react": "^17.0.1"
+  }
+}
