@@ -41,9 +41,6 @@ export const Text = styled('div')`
   /* hyphens: auto; перенос слов */
 `;
 
-export type TitleType = {
-  isRightDir: boolean;
-};
 
 export const Title = styled('div')<MessageProps>`
   display: block;

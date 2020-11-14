@@ -4,8 +4,21 @@ import * as Styled from './Message.styles';
 import { MessageProps } from './Message.d';
 
 // TODO: Moment
+// React.FC - children
 
-const Message: React.FC<MessageProps> = ({
+// const Message: React.FC<MessageProps> = ({
+//   image,
+//   authorName,
+//   time,
+//   text,
+//   isRightDir = false,
+//   showTitle,
+//   showAvatar,
+//   avatar,
+// }) => (
+
+
+const Message = ({
   image,
   authorName,
   time,
@@ -14,7 +27,7 @@ const Message: React.FC<MessageProps> = ({
   showTitle,
   showAvatar,
   avatar,
-}) => (
+}: MessageProps) => (
   <Styled.Wrapper isRightDir={isRightDir}>
     {showAvatar && (
       <Styled.AvatarWrapper showTitle={showTitle}>
